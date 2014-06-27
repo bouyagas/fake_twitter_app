@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	 <title>fake_twitter_app</title>
+	   <link rel="stylesheet" type="text/css" href="/my_styles.css">
+	   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	   <script type="text/javascript" src="/my_script.js"></script>
+	</head>
+
+		
+	<body>
+		<%=flash[:notice] if flash[:notice] %>
+			<%= yield %>
+	</body>
+</html>
